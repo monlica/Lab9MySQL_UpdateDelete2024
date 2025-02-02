@@ -16,7 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
 import com.example.lab9mysql_updatedelete.ui.theme.Lab9MySQL_UpdateDeleteTheme
 
-class MainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity()  {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
